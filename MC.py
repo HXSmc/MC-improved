@@ -117,15 +117,11 @@ def run_wake():
 
     while True:
         wakeup = listener().lower()
-        if 'hey mc' in wakeup:
+        if 'hey mc' or "hi mc" in wakeup:
             chat = StartChat()
             while True:
                 run_alexa(chat)
-        elif 'hi mc' in wakeup:
-            chat = StartChat()
-            while True:
                 
-                run_alexa(chat)  
         elif 'shut down' in wakeup:
             Quit()
 
