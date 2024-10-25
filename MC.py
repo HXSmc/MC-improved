@@ -21,7 +21,7 @@ from sumy.nlp.tokenizers import Tokenizer
 
           
 
-GOOGLE_API_KEY='AIzaSyB2z2ZX0A2zM4QYxh9FkjvUGIoxoTfskpU'
+GOOGLE_API_KEY='ENTER API KEY HERE'
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
